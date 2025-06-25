@@ -1,129 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Violdan Bayocot | Personal Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Violdan Bayocot | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#fe6e00',
+            background: '#0d1117',
+            surface: '#161b22',
+            muted: '#9ca3af',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background text-gray-100 font-sans scroll-smooth">
+
+  <!-- Navbar -->
+  <header class="bg-surface shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-primary font-bold text-xl">Violdan Bayocot</div>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#about" class="text-gray-300 hover:text-primary">About</a>
+        <a href="#projects" class="text-gray-300 hover:text-primary">Projects</a>
+        <a href="#resume" class="text-gray-300 hover:text-primary">Resume</a>
+        <a href="#contact" class="text-gray-300 hover:text-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 text-center bg-gradient-to-b from-surface to-background py-24 px-4">
+    <h1 class="text-5xl font-bold mb-4 animate-fade-in">Hello, I'm <span class="text-primary">Violdan</span></h1>
+    <p class="text-xl text-muted max-w-xl mx-auto animate-slide-in">Distinguished Professor (haha jk), Developer, and God Gamer haha.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold mb-4 text-primary">About Me</h2>
+    <p class="text-muted leading-relaxed">I teach and tinker. Sharing knowledge about computers on day at a time, building tools, and 100% completing games worth playing.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-surface py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4 text-primary">Featured Projects</h2>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="os-orientation/" class="hover:text-primary">📘 Operating Systems Slides</a></li>
+        <li><a href="projects/lifeline.html" class="hover:text-primary">🆘 placeholder!!!!</a></li>
+        <li><a href="games/reviews.html" class="hover:text-primary">🎮 Game Reviews</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="max-w-4xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold mb-4 text-primary">My Résumé</h2>
+    <ul class="list-disc list-inside text-muted">
+      <li><a href="resume/violdan-bayocot-resume.pdf" target="_blank" class="hover:text-primary">📄 Download PDF</a></li>
+      <li><a href="resume/index.html" class="hover:text-primary">🌐 View Online</a></li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-surface py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+		<h2 class="text-3xl font-bold mb-4 text-primary">Contact</h2>
+		<p class="text-muted">Personal Email: <a href="mailto:violdan.b@gmail.com" class="text-primary">violdan.b@email.com</a></p>
+		<p class="text-muted">Academic Email: <a href="mailto:violdan.bayocot@usjr.edu.ph" target="_blank" class="text-primary">violdan.bayocot@usjr.edu.ph</a></p>
+		<p class="text-muted">GitHub: <a href="https://github.com/Decr0zeath" target="_blank" class="text-primary">github.com/yourusername</a></p>
+		<p class="text-muted">LinkedIn: <a href="https://www.linkedin.com/in/violdanbayocot/" target="_blank" class="text-primary">@Decr0zeath</a></p>
+		<p class="text-muted">Steam: <a href="https://steamcommunity.com/id/de_cr0ze_ath/" target="_blank" class="text-primary">linkedin.com/in/violdanbayocot</a></p>
+		<p class="text-muted">GitHub: <a href="https://github.com/yourusername" target="_blank" class="text-primary">Decr0zeath</a></p>
+    </div>
+  </section>
+
+  <footer class="text-center py-8 text-muted text-sm">
+    &copy; 2025 Violdan Bayocot. All rights reserved.
+  </footer>
+
+  <!-- Basic animations -->
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f7f9fc;
-      color: #333;
-      margin: 0;
-      padding: 0;
+    .animate-fade-in {
+      animation: fadeIn 1.2s ease-in-out;
     }
-    header {
-      background-color: #003366;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
+    .animate-slide-in {
+      animation: slideIn 1.2s ease-out;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to   { opacity: 1; transform: scale(1); }
     }
-    header p {
-      font-size: 1.2em;
-      margin-top: 10px;
-    }
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    section {
-      background: white;
-      margin-bottom: 30px;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    section h2 {
-      margin-top: 0;
-      color: #003366;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    a {
-      color: #0056b3;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #777;
-      padding: 20px 0;
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
     }
   </style>
-</head>
-<body>
-
-<header>
-  <h1>Violdan Bayocot</h1>
-  <p>Educator • Tech Enthusiast • Gamer</p>
-</header>
-
-<main>
-
-  <section>
-    <h2>📚 Educator Slides & Resources</h2>
-    <ul>
-      <li><a href="os-orientation/">Operating Systems Slides</a></li>
-      <li><a href="computer-networks/">Computer Networks Slides</a></li>
-      <li><a href="dbms/">Database Systems Slides</a></li>
-      <li><a href="other-materials/">Other Educational Materials</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>🎮 Gaming Reviews & Recommendations</h2>
-    <p>I occasionally post short game reviews and my top picks for different genres/platforms.</p>
-    <ul>
-      <li><a href="games/recommendations.html">Top Game Recommendations</a></li>
-      <li><a href="games/reviews.html">My Game Reviews</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>🛠️ What I'm Working On</h2>
-    <p>I love building things. Here's a glimpse at current projects:</p>
-    <ul>
-      <li><a href="projects/lifeline.html">LifeLine Emergency App</a></li>
-      <li><a href="projects/sis-validator.html">Canvas SIS Validator (C#)</a></li>
-      <li><a href="projects/slide-hub.html">Educator SlideHub</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>📄 My Résumé / CV</h2>
-    <p>Download or view my latest résumé:</p>
-    <ul>
-      <li><a href="resume/violdan-bayocot-resume.pdf" target="_blank">📄 Download PDF</a></li>
-      <li><a href="resume/index.html">🌐 View Online</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>📬 Contact</h2>
-    <p>If you'd like to connect:</p>
-    <ul>
-      <li>Personal Email: <a href="mailto:violdan.b@gmail.com">violdan.b@email.com</a></li>
-	  <li>Academic Email: <a href="mailto:violdan.bayocot@usjr.edu.ph">violdan.bayocot@usjr.edu.ph</a></li>
-      <li>GitHub: <a href="https://github.com/Decr0zeath" target="_blank">@Decr0zeath</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/violdanbayocot/" target="_blank">linkedin.com/in/violdanbayocot</a></li>
-	  <li>Steam Account: <a href="https://steamcommunity.com/id/de_cr0ze_ath/" target="_blank">Decr0zeath</a></li>
-    </ul>
-  </section>
-
-</main>
-
-<footer>
-  &copy; 2025 Violdan Bayocot. All rights reserved.
-</footer>
 
 </body>
 </html>
