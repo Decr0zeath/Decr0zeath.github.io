@@ -304,7 +304,7 @@
 				<li>
 					Run <span class="code">process-run.py</span> with the following flags: 
 					<br><br>
-					<div style="text-align: center;"><span class="code">-1 5:100,5:100</span></div>
+					<div style="text-align: center;"><span class="code">-l 5:100,5:100</span></div>
 					<br>
 					<ul>
 						<li>What should the CPU utilization be (e.g., the percent of time the CPU is in use?)</li>
@@ -318,7 +318,7 @@
 				<li>
 					Now run with these flags:
 					<br><br>
-					<div style="text-align: center;"><span class="code">./process-run.py -1 4:100,1:0</span></div>
+					<div style="text-align: center;"><span class="code">./process-run.py -l 4:100,1:0</span></div>
 					<br>
 					These flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. 
 					<br><br>
@@ -331,7 +331,7 @@
 				<li>
 					Switch the order of the processes: 
 					<br><br>
-					<div style="text-align: center;"><span class="code">-1 1:0,4:100</span></div>
+					<div style="text-align: center;"><span class="code">-l 1:0,4:100</span></div>
 					<br>
 					<ul>
 						<li>What happens now?</li>
@@ -347,7 +347,7 @@
 					<br><br>
 					What happens when you run the following two processes
 					<br><br>
-					<div style="text-align: center;"><span class="code">-1 1:0,4:100 -c -S SWITCH_ON_END</span></div>
+					<div style="text-align: center;"><span class="code">-l 1:0,4:100 -c -S SWITCH_ON_END</span></div>
 					<br>
 					<ul><li>one doing I/O and the other doing CPU work?</li></ul>
 					<br><br>
@@ -357,7 +357,7 @@
 				<li>
 					Now, run the same processes, but with the switching behavior set to switch to another process whenever one is <span class="code">WAITING</span> for I/O  
 					<br><br>
-					<div style="text-align: center;"><span class="code">-1 1:0,4:100 -c -S SWITCH_ON_IO</span></div>
+					<div style="text-align: center;"><span class="code">-l 1:0,4:100 -c -S SWITCH_ON_IO</span></div>
 					<br>
 					<ul><li>What happens now?</li></ul>
 					<div class="hinttext">Use <span class="code">-c</span> and <span class="code">-p</span> to see if you were right.</div>
