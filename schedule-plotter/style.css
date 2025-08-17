@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background: #f8f8f8;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 6px 12px;
+  background: #3cb44b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #2a8c36;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 4px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+th {
+  background: #eee;
+}
+
+#schedule {
+  height: 150vh;  /* schedule table fills 150% of viewport height */
+}
+
+#schedule tbody tr {
+  height: calc(150vh / 24);  /* adjust 24 depending on number of slots */
+}
+
+td[contenteditable="true"]:focus {
+  background: #ffffcc !important;
+  outline: none;
+}
+
+.time-label {
+  font-size: 10px;
+  display: block;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.subject-label {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 3px 0;
+  text-align: center;
+}
+
+.room-input {
+  width: 90%;
+  font-size: 11px;
+  margin-top: 3px;
+  padding: 2px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  display: inline-block;   /* sit side by side */
+  margin: 0 5px;           /* small gap between them */
+}
