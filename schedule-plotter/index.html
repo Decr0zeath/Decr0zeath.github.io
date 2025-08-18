@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Schedule Plotter</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h2>BAYOCOT - Grad and Undergrad Schedule - 2025-2026 1st Sem</h2>
-  
 
-<div class="controls">
-    <button onclick="saveData()">Download Updated JSON</button>
-	<button onclick="loadData()">Load JSON</button>
-    <button onclick="resetData()">Clear Local Cache</button>
-</div>
+	<head>
+		<meta charset="UTF-8">
+		<title>Schedule Plotter</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
 
-  <table id="schedule">
-    <thead>
-      <tr>
-        <th>Time</th>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th>Saturday</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+	<body>
+		<h2>[Violdan E. Bayocot] - Undergraduate and Graduate Classes Schedule (SY. 2025-2026 1st Semester)</h2>
+		
+		<div class="controls">
+			<button onclick="saveData()">Download Updated JSON</button>
+			<button onclick="loadData()">Load JSON</button>
+			<button onclick="resetData()">Clear Local Cache</button>
+		</div>
 
-  <script src="script.js"></script>
-</body>
+		<table id="schedule">
+			<thead>
+				<tr>
+					<th>Time</th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+					<th>Saturday</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+		
+		<script src="script.js"></script>
+	</body>
 </html>
