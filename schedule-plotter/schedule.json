@@ -220,7 +220,7 @@
     "room": ""
   },
   "12:30-6": {
-    "subject": "",
+    "subject": "(CCS614) Programming Languages",
     "room": ""
   },
   "12:30-3": {
@@ -308,6 +308,70 @@
     "room": ""
   },
   "13:30-1": {
+    "subject": "",
+    "room": ""
+  },
+  "8:30-6": {
+    "subject": "(CCS696) Intelligent Systems 2",
+    "room": ""
+  },
+  "10:30-6": {
+    "subject": "(CCS696) Intelligent Systems 2",
+    "room": ""
+  },
+  "10:0-6": {
+    "subject": "(CCS696) Intelligent Systems 2",
+    "room": ""
+  },
+  "9:30-6": {
+    "subject": "(CCS696) Intelligent Systems 2",
+    "room": ""
+  },
+  "9:0-6": {
+    "subject": "(CCS696) Intelligent Systems 2",
+    "room": ""
+  },
+  "8:0-6": {
+    "subject": "(CCS696) Intelligent Systems 2",
+    "room": "Online"
+  },
+  "12:0-6": {
+    "subject": "(CCS614) Programming Languages",
+    "room": "Online"
+  },
+  "13:0-6": {
+    "subject": "(CCS614) Programming Languages",
+    "room": ""
+  },
+  "14:30-6": {
+    "subject": "(CCS614) Programming Languages",
+    "room": ""
+  },
+  "14:0-6": {
+    "subject": "(CCS614) Programming Languages",
+    "room": ""
+  },
+  "13:30-6": {
+    "subject": "(CCS614) Programming Languages",
+    "room": ""
+  },
+  "15:0-6": {
+    "subject": "(CCS697) Research Methods",
+    "room": "Online"
+  },
+  "15:30-6": {
+    "subject": "(CCS697) Research Methods",
+    "room": ""
+  },
+  "16:0-6": {
+    "subject": "(CCS697) Research Methods",
+    "room": ""
+  },
+  "16:30-6": {
+    "subject": "(CCS697) Research Methods",
+    "room": ""
+  },
+  "16:30-5": {
     "subject": "",
     "room": ""
   }

@@ -1,5 +1,5 @@
-const startHour = 8;
-const endHour = 17;
+const startHour = 7;
+const endHour = 19;
 const interval = 30;
 let savedData = {};
 
