@@ -4,10 +4,10 @@ const interval = 30;
 let savedData = {};
 
 const colorPalette = [
-	"#FABEBE", "#800000", "#000075", "#E6194B", "#3CB44B",
-	"#FFE119", "#4363D8", "#F58231", "#F032E6", "#46F0F0",
-	"#BCF60C", "#911EB4", "#AAFFC3", "#008080", "#9A6324",
-	"#FFFAC8", "#808000", "#FFD8B1", "#808080", "#E6BEFF",
+	"#FFFF00", "#FF6D01", "#00FF00", "#4285F4", "#00FFFF",
+	"#FFE599", "#FBBC04", "#93C47D", "#0097B2", "#DD7E6B",
+	"#FFD966", "#FF9900", "#6AA84F", "#8E7CC3", "#C1FF72",
+	"#BF9000", "#F6B26B", "#00BF63", "#A64D79", "#C27BA0",
 ];
 
 let colorMap = {};
