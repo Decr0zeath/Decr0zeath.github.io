@@ -1,0 +1,241 @@
+/* =========================================
+   THEME VARIABLES
+   ========================================= */
+
+/* Default: Light Mode */
+:root {
+	--bg: #f9fafb;        /* page background */
+	--card: #ffffff;      /* card/section background */
+	--muted: #6b7280;     /* muted gray text */
+	--accent: #FEC039;    /* accent color */
+	--text: #111827;      /* dark text */
+	--header-bg: #e5e7eb; /* light gray header */
+	--header-text-main: #2D582E;
+	--header-text-sub: #000000;
+}
+
+/* Dark Mode (add .dark class to <body>) */
+body.dark {
+	--bg: #121214;
+	--card: #1A1A1E;
+	--muted: #9aa6b2;
+	--accent: #FEC039;
+	--text: #e5e7eb;
+	--bg2: #202024;
+	--bg3: #2D2D2D;
+	--header-bg: #111827;
+	--header-text-main: #9ae6a3;
+	--header-text-sub: #e5e7eb;
+}
+
+/* =========================================
+   GLOBAL
+   ========================================= */
+
+body {
+  font-family: "Times New Roman", Times, serif, Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; 
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 32px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p.lead {
+  margin: 6px 0 18px;
+  color: var(--muted);
+}
+
+ul {
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+  padding-left: 1.2em; 
+}
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.usjr-header {
+	background-color: var(--header-bg);
+	padding: 15px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+.usjr-header .usjrseal {
+	width: 120px;
+	height: 120px;
+	margin: 0;
+}
+
+.usjr-header .scsseal {
+	width: 90px;
+	height: 90px;
+	margin: 0;
+}
+
+.usjr-header .title-section {
+	text-align: center;
+	margin: 0 15px;
+}
+
+.usjr-header .header-usjr {
+	font-family: "Old English Text MT", "Garamond", serif;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+	color: var(--header-text-main);
+}
+
+.usjr-header .header-scs {
+	font-family: 'STIX Two Text', 'Georgia', serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 2px;
+	color: var(--header-text-sub);
+}
+
+.usjr-header .header-department {
+	font-family: Cambria, "Times New Roman", serif;
+	font-size: 16px;
+	font-style: italic;
+	margin: 0;
+	color: var(--header-text-sub);
+}
+
+/* =========================================
+   ACTIVITY TITLE
+   ========================================= */
+
+.activity-title {
+	text-align: center;
+	margin: 0;
+}
+
+.activity-title .act-course {
+	font-family: 'Times New Roman', serif;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0;
+	color: var(--text);
+}
+
+.activity-title .act-label1,
+.activity-title .act-label2 {
+	font-family: 'Times New Roman', serif;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+	letter-spacing: 1px;
+	color: var(--text);
+}
+
+/* =========================================
+   CARDS / CONTENT
+   ========================================= */
+
+.card {
+  background: var(--card);
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.1);
+  margin-bottom: 16px;
+}
+
+pre {
+  background: #111827;
+  padding: 12px;
+  border-radius: 8px;
+  overflow: auto;
+  color: #cfe8ff;
+}
+
+code {
+  background: var(--bg3);
+  padding: 2px 6px;
+  color: var(--accent);
+  border-radius: 4px;
+}
+
+/* =========================================
+   LAYOUT HELPERS
+   ========================================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 14px;
+}
+
+.small {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.checklist {
+  columns: 1;
+}
+
+footer {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 880px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .checklist {
+    columns: 1;
+  }
+}
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  background: var(--accent);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
