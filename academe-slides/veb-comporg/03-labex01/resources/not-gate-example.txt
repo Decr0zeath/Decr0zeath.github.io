@@ -1,0 +1,39 @@
+$ 1 0.000005 10.20027730826997 50 5 43 5e-11
+x -267 135 205 138 4 12 1st\sstep:\sImport\s\p5V,\sGND,\sLOGIC\sINPUT,\sLED\s\s....\s(LED\sis\sgoing\sto\sact\sas\sthe\sOUTPUT)
+x -134 37 591 40 4 18 Greetings\sStudents!,\swhat\syou're\sseeing\sis\sprobably\sgoing\sto\sbe\sa\sheadache\sin\sto\syour\seyes
+x -256 65 732 68 4 18 But\sdon't\sworry.\sEngr.\sBayocot\sis\sgoing\sto\sinitially\sguide\syou\sstep\sby\sstep\sfor\screating\sonly\sthe\sNOT\sGate\sfor\syou\slaboratory\s:P
+x -236 169 -42 172 4 12 \p5V\s(Keyboard\sShortcut)\s:\sShift\s\p\sV\s\s
+x -236 188 -82 191 4 12 GND\s(Keyboard\sShortcut)\s:\sg
+x -235 264 -16 267 4 12 ***To\sbe\sin\sSelect/Drag\sMode,\spress\sESC
+x -235 302 -12 305 4 12 ***Mouse\sWheel\sUp/Down\sto\sZoom\sIn/Out
+x -235 283 138 286 4 12 ***To\sDrag\sCamera\sView,\sPress\sdown\sthe\sMouse\sWheel\sand\sthen\sdrag
+x -235 399 41 402 4 12 MOSFET\sP-Channel\s(Keyboard\sShortcut)\s:\sShift\s\p\sP
+x -235 380 42 383 4 12 MOSFET\sN-Channel\s(Keyboard\sShortcut)\s:\sShift\s\p\sN
+x -266 346 109 349 4 12 2nd\sStep:\sImport\s(1)\sMOSFET\sP-Channel\sand\s(1)\sMOSFET\sN-Channel
+x -265 440 215 443 4 12 3rd\sStep:\sConnect\sthe\swires.\sFollow\sthe\swiring\sinstructions\sin\sthe\sLaboratory\sExercise\spage
+x -235 228 -39 231 4 12 LED\s(Keyboard\sShortcut)\s:\sl\s(small\sL)
+x -236 208 -36 211 4 12 LOGIC\sINPUT\s(Keyboard\sShortcut)\s:\si
+x -238 466 -84 469 4 12 Wire\s(Keyboard\sShortcut)\s:\sw
+f 528 336 576 336 32 1.5 0.02
+f 528 240 576 240 33 1.5 0.02
+w 576 256 576 288 0
+w 576 224 576 192 0
+w 576 352 576 384 0
+w 528 240 528 288 0
+R 576 192 576 176 0 0 40 5 0 0 0.5
+g 576 384 576 400 0 0
+162 592 288 640 288 2 default-led 1 0 0 0.01
+g 640 288 640 304 0 0
+w 576 288 592 288 0
+L 528 288 480 288 0 1 false 5 0
+w 528 288 528 336 0
+w 576 288 576 320 0
+x 437 130 663 133 4 20 NOT\sGate\s(Using\sCMOS)
+b 411 143 680 434 0
+x -238 489 293 492 4 12 ***Remember\sthat\sLEDs\shave\san\sanode\sand\sa\scathode,\sso\sbe\smindful\sof\sthis\swhen\swiring\sthe\soutput.
+x -265 594 59 597 4 12 5th\sStep:\sRun\sthe\sSimulation\s(Located\sin\sthe\stop-right\scorner)
+x -266 532 268 535 4 12 4th\sStep:\sAdd\s"texts".\sSadly\sthere\sis\sno\sdefault\sshortcut\sfor\sadding\s"text",\syou\shave\sto\smanually\sset\sit.\s
+x -215 555 280 558 4 12 So\sfor\snow,\sjust\smanually\sadd\sthe\s"text"\sby\ssearching\sit\susing\sthe\sSearch\sbutton\son\sthe\stoolbar
+x 430 265 489 268 4 15 INPUT\sX
+x -265 624 235 627 4 12 6th\sStep:\sObserve\sthe\sflow\sof\selectricity.\sYou\scan\sclick\sthe\sLOGIC\sInput\sto\sset\sit\sto\sHIGH\s/\sLOW
+x -259 -24 718 -21 4 40 LABORATORY\sEXERCISE\s01\s(NOT\sGATE\sEXAMPLE)
