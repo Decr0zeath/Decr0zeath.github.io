@@ -1,7 +1,7 @@
 {
   "11:30-3": {
-    "subject": "(11028) PROG 1",
-    "room": "I1005"
+    "subject": "(11097) PROG 2",
+    "room": ""
   },
   "11:30-2": {
     "subject": "",
@@ -16,19 +16,19 @@
     "room": ""
   },
   "10:30-3": {
-    "subject": "",
+    "subject": "(11082) PROG 2",
     "room": ""
   },
   "11:30-1": {
-    "subject": "(11028) PROG 1",
-    "room": "I1005"
+    "subject": "(11097) PROG 2",
+    "room": ""
   },
   "10:0-3": {
-    "subject": "(11047) Data Struct",
+    "subject": "(11082) PROG 2",
     "room": ""
   },
   "9:30-1": {
-    "subject": "(11047) Data Struct",
+    "subject": "",
     "room": ""
   },
   "10:30-1": {
@@ -36,40 +36,40 @@
     "room": ""
   },
   "10:0-2": {
-    "subject": "(11048) Data Struct",
+    "subject": "Prog 2 (11013)",
     "room": ""
   },
   "8:30-1": {
-    "subject": "(11047) Data Struct",
+    "subject": "",
     "room": "I1001"
   },
   "9:0-2": {
-    "subject": "(11048) Data Struct",
-    "room": "I1003"
+    "subject": "Prog 2 (11013)",
+    "room": "I1002"
   },
   "13:0-1": {
-    "subject": "(11085) IT Review",
+    "subject": "",
     "room": ""
   },
   "14:30-2": {
-    "subject": "(11067) Comp-Org 1",
+    "subject": "",
     "room": ""
   },
   "15:0-3": {
-    "subject": "(11084) IT Review",
+    "subject": "QM (11017)",
     "room": ""
   },
   "14:30-4": {
-    "subject": "(11067) Comp-Org 1",
+    "subject": "",
     "room": ""
   },
   "8:30-5": {
-    "subject": "(11047) Data Struct",
+    "subject": "",
     "room": "I1001"
   },
   "9:0-4": {
-    "subject": "(11048) Data Struct",
-    "room": "I1003"
+    "subject": "Prog 2 (11013)",
+    "room": "I1002"
   },
   "8:0-1": {
     "subject": "",
@@ -84,19 +84,19 @@
     "room": ""
   },
   "9:0-3": {
-    "subject": "(11047) Data Struct",
+    "subject": "",
     "room": ""
   },
   "9:30-4": {
-    "subject": "(11048) Data Struct",
+    "subject": "Prog 2 (11013)",
     "room": ""
   },
   "10:0-5": {
-    "subject": "",
+    "subject": "(11082) PROG 2",
     "room": ""
   },
   "10:30-5": {
-    "subject": "",
+    "subject": "(11082) PROG 2",
     "room": ""
   },
   "11:0-5": {
@@ -104,16 +104,16 @@
     "room": ""
   },
   "11:30-5": {
-    "subject": "(11028) PROG 1",
-    "room": "I1005"
+    "subject": "",
+    "room": ""
   },
   "10:0-4": {
-    "subject": "(11048) Data Struct",
+    "subject": "Prog 2 (11013)",
     "room": ""
   },
   "9:30-5": {
-    "subject": "",
-    "room": ""
+    "subject": "(11082) PROG 2",
+    "room": "310"
   },
   "8:30-2": {
     "subject": "",
@@ -121,7 +121,7 @@
   },
   "15:0-2": {
     "subject": "",
-    "room": "I1004"
+    "room": ""
   },
   "15:30-2": {
     "subject": "",
@@ -136,7 +136,7 @@
     "room": ""
   },
   "15:30-3": {
-    "subject": "(11083) IT Review",
+    "subject": "",
     "room": "I1004"
   },
   "15:0-4": {
@@ -152,223 +152,223 @@
     "room": ""
   },
   "9:0-5": {
-    "subject": "(11047) Data Struct",
+    "subject": "",
     "room": ""
   },
   "9:0-1": {
-    "subject": "(11047) Data Struct",
+    "subject": "",
     "room": ""
   },
   "10:0-1": {
-    "subject": "(11047) Data Struct",
+    "subject": "",
     "room": ""
   },
   "9:30-2": {
-    "subject": "(11048) Data Struct",
+    "subject": "Prog 2 (11013)",
     "room": ""
   },
   "9:30-3": {
-    "subject": "(11047) Data Struct",
-    "room": ""
+    "subject": "(11082) PROG 2",
+    "room": "310"
   },
   "8:30-3": {
-    "subject": "(11047) Data Struct",
+    "subject": "",
     "room": "I1001"
   },
   "11:0-2": {
-    "subject": "(11048) Data Struct",
+    "subject": "Prog 2 (11013)",
     "room": ""
   },
   "10:30-2": {
-    "subject": "(11048) Data Struct",
+    "subject": "Prog 2 (11013)",
     "room": ""
   },
   "10:30-4": {
-    "subject": "(11048) Data Struct",
+    "subject": "Prog 2 (11013)",
     "room": ""
   },
   "11:0-4": {
-    "subject": "(11048) Data Struct",
+    "subject": "Prog 2 (11013)",
     "room": ""
   },
   "14:30-5": {
-    "subject": "(11084) IT Review",
-    "room": "I1005"
+    "subject": "QM (11017)",
+    "room": "I1002"
   },
   "12:0-2": {
-    "subject": "(11062) NET 1",
-    "room": "I1006"
+    "subject": "OOP (11028)",
+    "room": "I1001"
   },
   "13:0-2": {
-    "subject": "(11062) NET 1",
+    "subject": "OOP (11028)",
     "room": ""
   },
   "12:30-2": {
-    "subject": "(11062) NET 1",
+    "subject": "OOP (11028)",
     "room": ""
   },
   "12:0-4": {
-    "subject": "(11062) NET 1",
-    "room": "I1006"
+    "subject": "OOP (11028)",
+    "room": "I1001"
   },
   "13:0-4": {
-    "subject": "(11062) NET 1",
+    "subject": "OOP (11028)",
     "room": ""
   },
   "12:30-4": {
-    "subject": "(11062) NET 1",
+    "subject": "OOP (11028)",
     "room": ""
   },
   "12:30-6": {
-    "subject": "(CCS614) Programming Languages",
+    "subject": "",
     "room": ""
   },
   "12:30-3": {
-    "subject": "(11085) IT Review",
-    "room": "I1002"
+    "subject": "",
+    "room": ""
   },
   "13:30-2": {
-    "subject": "(11067) Comp-Org 1",
-    "room": "I1007"
+    "subject": "OOP (11028)",
+    "room": ""
   },
   "14:0-2": {
-    "subject": "(11067) Comp-Org 1",
+    "subject": "OOP (11028)",
     "room": ""
   },
   "14:0-4": {
-    "subject": "(11067) Comp-Org 1",
+    "subject": "OOP (11028)",
     "room": ""
   },
   "13:30-4": {
-    "subject": "(11067) Comp-Org 1",
-    "room": "I1007"
+    "subject": "OOP (11028)",
+    "room": ""
   },
   "13:30-5": {
-    "subject": "",
-    "room": ""
+    "subject": "(11018) QM",
+    "room": "I1005"
   },
   "13:30-3": {
-    "subject": "",
-    "room": ""
+    "subject": "(11018) QM",
+    "room": "I1005"
   },
   "15:30-1": {
-    "subject": "(11083) IT Review",
+    "subject": "",
     "room": "I1004"
   },
   "16:0-1": {
-    "subject": "(11083) IT Review",
+    "subject": "",
     "room": ""
   },
   "14:30-1": {
-    "subject": "(11084) IT Review",
-    "room": "I1005"
+    "subject": "QM (11017)",
+    "room": "I1002"
   },
   "16:0-3": {
-    "subject": "(11083) IT Review",
+    "subject": "",
     "room": ""
   },
   "15:30-5": {
-    "subject": "(11083) IT Review",
+    "subject": "",
     "room": "I1004"
   },
   "16:0-5": {
-    "subject": "(11083) IT Review",
+    "subject": "",
     "room": ""
   },
   "15:0-5": {
-    "subject": "(11084) IT Review",
+    "subject": "QM (11017)",
     "room": ""
   },
   "14:30-3": {
-    "subject": "(11084) IT Review",
-    "room": "I1005"
+    "subject": "QM (11017)",
+    "room": "I1002"
   },
   "15:0-1": {
-    "subject": "(11084) IT Review",
+    "subject": "QM (11017)",
     "room": ""
   },
   "14:0-5": {
-    "subject": "",
+    "subject": "(11018) QM",
     "room": ""
   },
   "12:30-1": {
-    "subject": "(11085) IT Review",
+    "subject": "",
     "room": "I1002"
   },
   "13:0-3": {
-    "subject": "(11085) IT Review",
-    "room": ""
-  },
-  "12:30-5": {
-    "subject": "(11085) IT Review",
-    "room": "I1002"
-  },
-  "13:0-5": {
-    "subject": "(11085) IT Review",
-    "room": ""
-  },
-  "13:30-1": {
     "subject": "",
     "room": ""
   },
+  "12:30-5": {
+    "subject": "",
+    "room": "I1002"
+  },
+  "13:0-5": {
+    "subject": "",
+    "room": ""
+  },
+  "13:30-1": {
+    "subject": "(11018) QM",
+    "room": "I1005"
+  },
   "8:30-6": {
-    "subject": "(CCS696) Intelligent Systems 2",
+    "subject": "",
     "room": ""
   },
   "10:30-6": {
-    "subject": "(CCS696) Intelligent Systems 2",
+    "subject": "",
     "room": ""
   },
   "10:0-6": {
-    "subject": "(CCS696) Intelligent Systems 2",
+    "subject": "",
     "room": ""
   },
   "9:30-6": {
-    "subject": "(CCS696) Intelligent Systems 2",
+    "subject": "",
     "room": ""
   },
   "9:0-6": {
-    "subject": "(CCS696) Intelligent Systems 2",
+    "subject": "",
     "room": ""
   },
   "8:0-6": {
-    "subject": "(CCS696) Intelligent Systems 2",
+    "subject": "",
     "room": "Online"
   },
   "12:0-6": {
-    "subject": "(CCS614) Programming Languages",
-    "room": "Online"
+    "subject": "",
+    "room": ""
   },
   "13:0-6": {
-    "subject": "(CCS614) Programming Languages",
+    "subject": "",
     "room": ""
   },
   "14:30-6": {
-    "subject": "(CCS614) Programming Languages",
+    "subject": "",
     "room": ""
   },
   "14:0-6": {
-    "subject": "(CCS614) Programming Languages",
+    "subject": "",
     "room": ""
   },
   "13:30-6": {
-    "subject": "(CCS614) Programming Languages",
+    "subject": "",
     "room": ""
   },
   "15:0-6": {
-    "subject": "(CCS697) Research Methods",
+    "subject": "",
     "room": "Online"
   },
   "15:30-6": {
-    "subject": "(CCS697) Research Methods",
+    "subject": "",
     "room": ""
   },
   "16:0-6": {
-    "subject": "(CCS697) Research Methods",
+    "subject": "",
     "room": ""
   },
   "16:30-6": {
-    "subject": "(CCS697) Research Methods",
+    "subject": "",
     "room": ""
   },
   "16:30-5": {
@@ -376,31 +376,67 @@
     "room": ""
   },
   "17:0-6": {
-    "subject": "(CCS697) Research Methods",
+    "subject": "",
     "room": ""
   },
   "17:30-6": {
-    "subject": "(CCS697) Research Methods",
+    "subject": "",
     "room": ""
   },
   "12:0-1": {
-    "subject": "(11028) PROG 1",
+    "subject": "(11097) PROG 2",
     "room": ""
   },
   "12:0-3": {
-    "subject": "(11028) PROG 1",
+    "subject": "(11097) PROG 2",
     "room": ""
   },
   "12:0-5": {
-    "subject": "(11028) PROG 1",
+    "subject": "",
     "room": ""
   },
   "11:0-1": {
-    "subject": "",
-    "room": ""
+    "subject": "(11097) PROG 2",
+    "room": "310"
   },
   "7:30-3": {
     "subject": "",
     "room": ""
+  },
+  "14:0-1": {
+    "subject": "(11018) QM",
+    "room": ""
+  },
+  "17:0-1": {
+    "subject": "PL (11054)",
+    "room": "I1008"
+  },
+  "17:30-1": {
+    "subject": "PL (11054)",
+    "room": ""
+  },
+  "17:0-3": {
+    "subject": "PL (11054)",
+    "room": "I1008"
+  },
+  "17:30-3": {
+    "subject": "PL (11054)",
+    "room": ""
+  },
+  "17:30-5": {
+    "subject": "PL (11054)",
+    "room": ""
+  },
+  "17:0-5": {
+    "subject": "PL (11054)",
+    "room": "I1008"
+  },
+  "14:0-3": {
+    "subject": "(11018) QM",
+    "room": ""
+  },
+  "11:0-3": {
+    "subject": "(11097) PROG 2",
+    "room": "310"
   }
 }
