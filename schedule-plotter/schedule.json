@@ -220,7 +220,7 @@
     "room": ""
   },
   "12:30-6": {
-    "subject": "",
+    "subject": "IT SECURITY (CCS681)",
     "room": ""
   },
   "12:30-3": {
@@ -312,63 +312,63 @@
     "room": "I1005"
   },
   "8:30-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "10:30-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "10:0-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "9:30-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "9:0-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "8:0-6": {
-    "subject": "",
-    "room": "Online"
-  },
-  "12:0-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
+  "12:0-6": {
+    "subject": "IT SECURITY (CCS681)",
+    "room": "Online"
+  },
   "13:0-6": {
-    "subject": "",
+    "subject": "IT SECURITY (CCS681)",
     "room": ""
   },
   "14:30-6": {
-    "subject": "",
+    "subject": "IT SECURITY (CCS681)",
     "room": ""
   },
   "14:0-6": {
-    "subject": "",
+    "subject": "IT SECURITY (CCS681)",
     "room": ""
   },
   "13:30-6": {
-    "subject": "",
+    "subject": "IT SECURITY (CCS681)",
     "room": ""
   },
   "15:0-6": {
-    "subject": "",
-    "room": "Online"
+    "subject": "(CCS700) WORK ON THESIS!",
+    "room": "Laptop / Renoir PC"
   },
   "15:30-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "16:0-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "16:30-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "16:30-5": {
@@ -376,11 +376,11 @@
     "room": ""
   },
   "17:0-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "17:30-6": {
-    "subject": "",
+    "subject": "(CCS700) WORK ON THESIS!",
     "room": ""
   },
   "12:0-1": {
@@ -438,5 +438,29 @@
   "11:0-3": {
     "subject": "",
     "room": "310"
+  },
+  "7:0-6": {
+    "subject": "(CCS700) WORK ON THESIS!",
+    "room": "Laptop / Renoir PC"
+  },
+  "7:30-6": {
+    "subject": "(CCS700) WORK ON THESIS!",
+    "room": ""
+  },
+  "11:0-6": {
+    "subject": "(CCS700) WORK ON THESIS!",
+    "room": ""
+  },
+  "11:30-6": {
+    "subject": "(CCS700) WORK ON THESIS!",
+    "room": ""
+  },
+  "18:0-6": {
+    "subject": "(CCS700) WORK ON THESIS!",
+    "room": ""
+  },
+  "18:30-6": {
+    "subject": "(CCS700) WORK ON THESIS!",
+    "room": ""
   }
 }
