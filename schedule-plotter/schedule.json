@@ -52,15 +52,15 @@
     "room": ""
   },
   "14:30-2": {
-    "subject": "",
+    "subject": "(11014) PROG 2",
     "room": ""
   },
   "15:0-3": {
-    "subject": "QM (11017)",
+    "subject": "",
     "room": ""
   },
   "14:30-4": {
-    "subject": "",
+    "subject": "(11014) PROG 2",
     "room": ""
   },
   "8:30-5": {
@@ -120,11 +120,11 @@
     "room": ""
   },
   "15:0-2": {
-    "subject": "",
+    "subject": "(11014) PROG 2",
     "room": ""
   },
   "15:30-2": {
-    "subject": "",
+    "subject": "(11014) PROG 2",
     "room": ""
   },
   "16:30-2": {
@@ -137,14 +137,14 @@
   },
   "15:30-3": {
     "subject": "",
-    "room": "I1004"
+    "room": ""
   },
   "15:0-4": {
-    "subject": "",
-    "room": "I1004"
+    "subject": "(11014) PROG 2",
+    "room": ""
   },
   "15:30-4": {
-    "subject": "",
+    "subject": "(11014) PROG 2",
     "room": ""
   },
   "16:0-4": {
@@ -192,31 +192,31 @@
     "room": ""
   },
   "14:30-5": {
-    "subject": "QM (11017)",
+    "subject": "",
     "room": "I1002"
   },
   "12:0-2": {
-    "subject": "OOP (11028)",
+    "subject": "",
     "room": "I1001"
   },
   "13:0-2": {
-    "subject": "OOP (11028)",
+    "subject": "",
     "room": ""
   },
   "12:30-2": {
-    "subject": "OOP (11028)",
+    "subject": "",
     "room": ""
   },
   "12:0-4": {
-    "subject": "OOP (11028)",
-    "room": "I1001"
+    "subject": "",
+    "room": ""
   },
   "13:0-4": {
-    "subject": "OOP (11028)",
+    "subject": "",
     "room": ""
   },
   "12:30-4": {
-    "subject": "OOP (11028)",
+    "subject": "",
     "room": ""
   },
   "12:30-6": {
@@ -228,20 +228,20 @@
     "room": ""
   },
   "13:30-2": {
-    "subject": "OOP (11028)",
-    "room": ""
+    "subject": "(11014) PROG 2",
+    "room": "I1002"
   },
   "14:0-2": {
-    "subject": "OOP (11028)",
+    "subject": "(11014) PROG 2",
     "room": ""
   },
   "14:0-4": {
-    "subject": "OOP (11028)",
+    "subject": "(11014) PROG 2",
     "room": ""
   },
   "13:30-4": {
-    "subject": "OOP (11028)",
-    "room": ""
+    "subject": "(11014) PROG 2",
+    "room": "I1002"
   },
   "13:30-5": {
     "subject": "(11018) QM",
@@ -253,15 +253,15 @@
   },
   "15:30-1": {
     "subject": "",
-    "room": "I1004"
+    "room": ""
   },
   "16:0-1": {
     "subject": "",
     "room": ""
   },
   "14:30-1": {
-    "subject": "QM (11017)",
-    "room": "I1002"
+    "subject": "",
+    "room": ""
   },
   "16:0-3": {
     "subject": "",
@@ -276,15 +276,15 @@
     "room": ""
   },
   "15:0-5": {
-    "subject": "QM (11017)",
+    "subject": "",
     "room": ""
   },
   "14:30-3": {
-    "subject": "QM (11017)",
-    "room": "I1002"
+    "subject": "",
+    "room": ""
   },
   "15:0-1": {
-    "subject": "QM (11017)",
+    "subject": "",
     "room": ""
   },
   "14:0-5": {
@@ -461,6 +461,10 @@
   },
   "18:30-6": {
     "subject": "(CCS700) WORK ON THESIS!",
+    "room": ""
+  },
+  "8:30-4": {
+    "subject": "",
     "room": ""
   }
 }
