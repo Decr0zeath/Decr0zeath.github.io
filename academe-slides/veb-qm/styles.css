@@ -43,12 +43,11 @@
 		color: var(--text);
 		line-height: 1.6;
 		padding: 20px;
-		max-width: 900px;
 		margin: auto;
 	}
 
 	.container {
-		max-width: 980px;
+		max-width: 900px;
 		margin: 0 auto;
 	}
 
@@ -91,6 +90,7 @@
 		margin-bottom: 1em;
 		padding-left: 1.2em; 
 	}
+
 
 /* =========================================
    HEADER
@@ -187,12 +187,53 @@
 		margin-bottom: 10px;
 	}
 
-	pre {
-		background: #111827;
+	pre.code-block {
+		background: #282C34;
 		padding: 12px;
 		border-radius: 8px;
 		overflow: auto;
-		color: #cfe8ff;
+		position: relative;
+	}
+
+	/* Copy button with icon */
+	pre.code-block .copy-btn {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		width: 28px;
+		height: 28px;
+		background: #3c3f41; /* dark button */
+		border: none;
+		border-radius: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		opacity: 1;
+		transition: opacity 0.2s, background 0.2s;
+	}
+
+
+	/* Hover effect */
+	pre.code-block .copy-btn:hover {
+		background: #505354;
+	}
+
+	/* Icon styling */
+	pre.code-block .copy-btn svg {
+		width: 16px;
+		height: 16px;
+		fill: #ffffff;
+	}
+
+	pre.output-block {
+		background: #1e1e1e;
+		color: #9cdcfe;        /* soft terminal-like text */
+		padding: 12px;
+		border-radius: 6px;
+		overflow-x: auto;
+		font-family: monospace;
+		font-size: 0.9em;
 	}
 
 	code {
@@ -209,6 +250,11 @@
 		padding: 10px;
 		margin: 20px 0;
 		color: var(--accent);
+	}
+	
+	.note2 {
+		border-left: 5px solid var(--accent);
+		padding-left: 30px;
 	}
 
 /* =========================================
@@ -256,6 +302,90 @@
 		font-weight: 600;
 	}
 	
+/* =========================================
+   TABLE STYLES
+   ========================================= */
+
+	.comparison-table {
+    	width: 100%;
+    	border-collapse: collapse;
+    	margin: 15px 0;
+	}
+
+	.comparison-table th {
+    	background: var(--accent);
+    	color: #fff;
+    	padding: 12px;
+    	text-align: left;
+    	font-weight: 600;
+	}
+
+	/* Fix header text color for light mode */
+	body:not(.dark) .comparison-table th {
+    	background: var(--text);
+    	color: var(--bg);
+	}
+
+	.comparison-table th:nth-child(2),
+	.comparison-table th:nth-child(3),
+	.comparison-table th:nth-child(4),
+	.comparison-table th:nth-child(5) {
+		text-align: center;
+	}
+
+	.comparison-table td {
+		padding: 12px;
+		border-bottom: 1px solid var(--bg3);
+	}
+
+	.comparison-table td:first-child {
+		background: var(--bg2);
+		border-right: 2px solid var(--bg3);
+	}
+
+	.comparison-table td:nth-child(2),
+	.comparison-table td:nth-child(3),
+	.comparison-table td:nth-child(4),
+	.comparison-table td:nth-child(5) {
+		text-align: center;
+		font-weight: 600;
+	}
+
+	.comparison-table tbody tr:hover {
+		background: var(--bg2);
+	}
+
+	/* Status colors */
+	.status-yes { color: var(--accent); }
+	.status-no { color: #dc3545; }
+	.status-warning { color: #fd7e14; }
+	.status-neutral { color: var(--muted); }
+
+
+/* =========================================
+   FORMULAS
+   ========================================= */
+
+	.formula-inline {
+		font-family: 'Cambria Math', serif;
+		padding: 2px 6px;
+		border-radius: 6px;
+		white-space: nowrap;
+		font-weight: bold;
+	}
+
+	.formula-block {
+		font-family: 'Cambria Math', serif;
+		font-size: 1.4rem;
+		text-align: center;
+		padding: 20px;
+		margin: 25px 0;
+		border-radius: 12px;
+		background: linear-gradient(to bottom, #fafafa, #f1f1f1);
+		box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+	}
+
+
 /* =========================================
    FOOTER
    ========================================= */
