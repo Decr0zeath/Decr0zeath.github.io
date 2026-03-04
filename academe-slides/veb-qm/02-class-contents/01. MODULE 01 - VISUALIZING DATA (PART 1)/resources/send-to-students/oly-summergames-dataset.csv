@@ -1,0 +1,29 @@
+﻿Games,Year,"City, Country",Continent
+I,1896,"Athens, Greece",Europe
+II,1900,"Paris, France",Europe
+III,1904,"St. Louis, United States",North America
+IV,1908,"London, United Kingdom",Europe
+V,1912,"Stockholm, Sweden",Europe
+VII,1920,"Antwerp, Belgium",Europe
+VIII,1924,"Paris, France",Europe
+IX,1928,"Amsterdam, Netherlands",Europe
+X,1932,"Los Angeles, United States",North America
+XI,1936,"Berlin, Germany",Europe
+XIV,1948,"London, United Kingdom",Europe
+XV,1952,"Helsinki, Finland",Europe
+XVI,1956,"Melbourne, Australia",Australia
+XVII,1960,"Rome, Italy",Europe
+XVIII,1964,"Tokyo, Japan",Asia
+XIX,1968,"Mexico City, Mexico",North America
+XX,1972,"Munich, West Germany",Europe
+XXI,1976,"Montreal, Canada",North America
+XXII,1980,"Moscow, Soviet Union",Europe
+XXIII,1984,"Los Angeles, United States",North America
+XXIV,1988,"Seoul, South Korea",Asia
+XXV,1992,"Barcelona, Spain",Europe
+XXVI,1996,"Atlanta, United States",North America
+XXVII,2000,"Sydney, Australia",Australia
+XXVIII,2004,"Athens, Greece",Europe
+XXIX,2008,"Beijing, China",Asia
+XXX,2012,"London, United Kingdom",Europe
+XXXI,2016,"Rio de Janeiro, Brazil",South America
